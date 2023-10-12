@@ -2,12 +2,12 @@ body {
   margin: 0;
   padding: 0;
   font-size: 14px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-  text-decoration: none;
-  cursor: pointer;
+  text-decoration: none;/* remove under-line for tag <a>*/
+  cursor: pointer;/* Adds the hand in the text */
 }
 
 header {
@@ -24,7 +24,7 @@ header nav .nav-rigth-section {
   width: 250px;
   height: auto;
   display: flex;
-  list-style: none;
+  list-style: none;/* remove the bullets */
   justify-content: center;
   align-items: center;
 }
@@ -32,4 +32,18 @@ header nav .nav-rigth-section {
 nav .nav-rigth-section a {
   margin-right: 10px;
   color: black;
+}
+
+nav .nav-rigth-section .menu-icon {
+  background-image: url('https://static.thenounproject.com/png/756729-200.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* This is for the size in the container */
+  width: 25px;
+  height: 25px;
+}
+
+nav .nav-rigth-section img {
+  border-radius: 50%;
+  margin-left: 10px;
 }
